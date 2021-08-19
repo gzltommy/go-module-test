@@ -1,4 +1,4 @@
-# 这个项目内包含三个 project（即，有 3 个 module），其中 mod1 引用 mod2，mod2 引用 mod3
+**这个项目内包含三个 project（即，有 3 个 module），其中 mod1 引用 mod2，mod2 引用 mod3**
 mod1
     go.mod
     main.go

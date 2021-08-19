@@ -9,7 +9,7 @@ mod3
     go.mod
     mod3.go
     
-## 简单说一下实验设计的目的：
+## 实验的设计说明
 上面 mod1 是我要进行编译的 module，mod1 直接引用 mod2，mod2 直接依赖 mod3，所以 mod1 间接依赖 mod3，mod1/go.mod 也证明了这点。
 但是注意，mod2/go.mod 中，我给出的 replace 是一个错误的地址，这个文件夹是不存在的，此外，我在 mod1/go.mod 给出了正确的 replace。    
 
